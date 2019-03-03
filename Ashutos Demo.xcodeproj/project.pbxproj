@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D2C35A522271729001939D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35A422271729001939D3 /* AppDelegate.swift */; };
+		6D2C35A722271729001939D3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35A622271729001939D3 /* ListViewController.swift */; };
+		6D2C35AA22271729001939D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C35A822271729001939D3 /* Main.storyboard */; };
+		6D2C35AD22271729001939D3 /* Ashutos_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35AB22271729001939D3 /* Ashutos_Demo.xcdatamodeld */; };
+		6D2C35AF2227172A001939D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C35AE2227172A001939D3 /* Assets.xcassets */; };
+		6D2C35B22227172A001939D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C35B02227172A001939D3 /* LaunchScreen.storyboard */; };
+		6D2C35BB22271ED1001939D3 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35B922271ED1001939D3 /* ListCollectionViewCell.swift */; };
+		6D2C35BC22271ED1001939D3 /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C35BA22271ED1001939D3 /* ListCollectionViewCell.xib */; };
+		6D2C35BF222720DC001939D3 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35BE222720DC001939D3 /* WebService.swift */; };
+		6D2C35C122272115001939D3 /* WebServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35C022272115001939D3 /* WebServiceRequest.swift */; };
+		6D2C35C322272132001939D3 /* WebServiceRequestHeadClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35C222272132001939D3 /* WebServiceRequestHeadClass.swift */; };
+		6D2C35C5222722CD001939D3 /* WebServiceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35C4222722CD001939D3 /* WebServiceErrors.swift */; };
+		6D2C35C9222725BA001939D3 /* WebServiceToGetImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35C8222725BA001939D3 /* WebServiceToGetImageList.swift */; };
+		6D2C35CC2227330B001939D3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35CB2227330B001939D3 /* Utilities.swift */; };
+		6D2C35CE22273A90001939D3 /* indiImageDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35CD22273A90001939D3 /* indiImageDetails+CoreDataClass.swift */; };
+		6D2C35D222273ACB001939D3 /* indivisualImageDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35D122273ACB001939D3 /* indivisualImageDetails+CoreDataProperties.swift */; };
+		6D2C35D422274721001939D3 /* AllImageDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35D322274721001939D3 /* AllImageDetails+CoreDataProperties.swift */; };
+		6D2C35D622274759001939D3 /* AllImageDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35D522274759001939D3 /* AllImageDetails+CoreDataClass.swift */; };
+		6D2C35D922276302001939D3 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C35D822276302001939D3 /* DetailsViewController.swift */; };
+		864141EE8BB3D73475A8E528 /* Pods_Ashutos_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3E479F0FF88F7BCF66AF4 /* Pods_Ashutos_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B41A83DAF3121F91520E48F /* Pods-Ashutos Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ashutos Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ashutos Demo/Pods-Ashutos Demo.release.xcconfig"; sourceTree = "<group>"; };
+		40A3E479F0FF88F7BCF66AF4 /* Pods_Ashutos_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ashutos_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCAB80C87C3CD3FDAAC1A77 /* Pods-Ashutos Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ashutos Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ashutos Demo/Pods-Ashutos Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2C35A122271729001939D3 /* Ashutos Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ashutos Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2C35A422271729001939D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D2C35A622271729001939D3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		6D2C35A922271729001939D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D2C35AC22271729001939D3 /* Ashutos_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ashutos_Demo.xcdatamodel; sourceTree = "<group>"; };
+		6D2C35AE2227172A001939D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D2C35B12227172A001939D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D2C35B32227172A001939D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2C35B922271ED1001939D3 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		6D2C35BA22271ED1001939D3 /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
+		6D2C35BE222720DC001939D3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		6D2C35C022272115001939D3 /* WebServiceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceRequest.swift; sourceTree = "<group>"; };
+		6D2C35C222272132001939D3 /* WebServiceRequestHeadClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceRequestHeadClass.swift; sourceTree = "<group>"; };
+		6D2C35C4222722CD001939D3 /* WebServiceErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceErrors.swift; sourceTree = "<group>"; };
+		6D2C35C8222725BA001939D3 /* WebServiceToGetImageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceToGetImageList.swift; sourceTree = "<group>"; };
+		6D2C35CB2227330B001939D3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		6D2C35CD22273A90001939D3 /* indiImageDetails+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "indiImageDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6D2C35D122273ACB001939D3 /* indivisualImageDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "indivisualImageDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6D2C35D322274721001939D3 /* AllImageDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllImageDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6D2C35D522274759001939D3 /* AllImageDetails+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllImageDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6D2C35D822276302001939D3 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D2C359E22271729001939D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864141EE8BB3D73475A8E528 /* Pods_Ashutos_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50B9DE338B6D78E01E5EE1CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DCAB80C87C3CD3FDAAC1A77 /* Pods-Ashutos Demo.debug.xcconfig */,
+				0B41A83DAF3121F91520E48F /* Pods-Ashutos Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D0E1167222C202000C2CDD5 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35C7222722EA001939D3 /* Controllers */,
+				6D2C35BD22271EDB001939D3 /* Cell */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		6D0E1168222C203500C2CDD5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35D022273AA7001939D3 /* IndiImageDetails */,
+				6D2C35D722274760001939D3 /* AllImageDetails */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		6D0E1169222C205400C2CDD5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35A822271729001939D3 /* Main.storyboard */,
+				6D2C35B02227172A001939D3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		6D0E116A222C206400C2CDD5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35CB2227330B001939D3 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6D0E116B222C207600C2CDD5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35A422271729001939D3 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6D2C359822271729001939D3 = {
+			isa = PBXGroup;
+			children = (
+				6D2C35A322271729001939D3 /* Ashutos Demo */,
+				6D2C35A222271729001939D3 /* Products */,
+				50B9DE338B6D78E01E5EE1CF /* Pods */,
+				7C659A7FCE897F016007D069 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D2C35A222271729001939D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35A122271729001939D3 /* Ashutos Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D2C35A322271729001939D3 /* Ashutos Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6D0E116B222C207600C2CDD5 /* Application */,
+				6D0E116A222C206400C2CDD5 /* Utilities */,
+				6D0E1169222C205400C2CDD5 /* Storyboard */,
+				6D0E1168222C203500C2CDD5 /* Database */,
+				6D0E1167222C202000C2CDD5 /* Module */,
+				6D2C35C6222722D7001939D3 /* NetworkLayer */,
+				6D2C35AE2227172A001939D3 /* Assets.xcassets */,
+				6D2C35B32227172A001939D3 /* Info.plist */,
+				6D2C35AB22271729001939D3 /* Ashutos_Demo.xcdatamodeld */,
+			);
+			path = "Ashutos Demo";
+			sourceTree = "<group>";
+		};
+		6D2C35BD22271EDB001939D3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35B922271ED1001939D3 /* ListCollectionViewCell.swift */,
+				6D2C35BA22271ED1001939D3 /* ListCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6D2C35C6222722D7001939D3 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35CA2227266F001939D3 /* WebServiceRequest */,
+				6D2C35BE222720DC001939D3 /* WebService.swift */,
+				6D2C35C222272132001939D3 /* WebServiceRequestHeadClass.swift */,
+				6D2C35C4222722CD001939D3 /* WebServiceErrors.swift */,
+				6D2C35C022272115001939D3 /* WebServiceRequest.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		6D2C35C7222722EA001939D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35A622271729001939D3 /* ListViewController.swift */,
+				6D2C35D822276302001939D3 /* DetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D2C35CA2227266F001939D3 /* WebServiceRequest */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35C8222725BA001939D3 /* WebServiceToGetImageList.swift */,
+			);
+			path = WebServiceRequest;
+			sourceTree = "<group>";
+		};
+		6D2C35D022273AA7001939D3 /* IndiImageDetails */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35CD22273A90001939D3 /* indiImageDetails+CoreDataClass.swift */,
+				6D2C35D122273ACB001939D3 /* indivisualImageDetails+CoreDataProperties.swift */,
+			);
+			path = IndiImageDetails;
+			sourceTree = "<group>";
+		};
+		6D2C35D722274760001939D3 /* AllImageDetails */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C35D522274759001939D3 /* AllImageDetails+CoreDataClass.swift */,
+				6D2C35D322274721001939D3 /* AllImageDetails+CoreDataProperties.swift */,
+			);
+			path = AllImageDetails;
+			sourceTree = "<group>";
+		};
+		7C659A7FCE897F016007D069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40A3E479F0FF88F7BCF66AF4 /* Pods_Ashutos_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D2C35A022271729001939D3 /* Ashutos Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2C35B62227172A001939D3 /* Build configuration list for PBXNativeTarget "Ashutos Demo" */;
+			buildPhases = (
+				818EF8816A2BBD5F69019313 /* [CP] Check Pods Manifest.lock */,
+				6D2C359D22271729001939D3 /* Sources */,
+				6D2C359E22271729001939D3 /* Frameworks */,
+				6D2C359F22271729001939D3 /* Resources */,
+				D4EECECB75A8D59EC6E29400 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ashutos Demo";
+			productName = "Ashutos Demo";
+			productReference = 6D2C35A122271729001939D3 /* Ashutos Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D2C359922271729001939D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ashutos;
+				TargetAttributes = {
+					6D2C35A022271729001939D3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6D2C359C22271729001939D3 /* Build configuration list for PBXProject "Ashutos Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D2C359822271729001939D3;
+			productRefGroup = 6D2C35A222271729001939D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D2C35A022271729001939D3 /* Ashutos Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D2C359F22271729001939D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2C35B22227172A001939D3 /* LaunchScreen.storyboard in Resources */,
+				6D2C35AF2227172A001939D3 /* Assets.xcassets in Resources */,
+				6D2C35BC22271ED1001939D3 /* ListCollectionViewCell.xib in Resources */,
+				6D2C35AA22271729001939D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		818EF8816A2BBD5F69019313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ashutos Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4EECECB75A8D59EC6E29400 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ashutos Demo/Pods-Ashutos Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ashutos Demo/Pods-Ashutos Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D2C359D22271729001939D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2C35C122272115001939D3 /* WebServiceRequest.swift in Sources */,
+				6D2C35CE22273A90001939D3 /* indiImageDetails+CoreDataClass.swift in Sources */,
+				6D2C35D622274759001939D3 /* AllImageDetails+CoreDataClass.swift in Sources */,
+				6D2C35D222273ACB001939D3 /* indivisualImageDetails+CoreDataProperties.swift in Sources */,
+				6D2C35A722271729001939D3 /* ListViewController.swift in Sources */,
+				6D2C35A522271729001939D3 /* AppDelegate.swift in Sources */,
+				6D2C35C322272132001939D3 /* WebServiceRequestHeadClass.swift in Sources */,
+				6D2C35C9222725BA001939D3 /* WebServiceToGetImageList.swift in Sources */,
+				6D2C35BB22271ED1001939D3 /* ListCollectionViewCell.swift in Sources */,
+				6D2C35C5222722CD001939D3 /* WebServiceErrors.swift in Sources */,
+				6D2C35D422274721001939D3 /* AllImageDetails+CoreDataProperties.swift in Sources */,
+				6D2C35BF222720DC001939D3 /* WebService.swift in Sources */,
+				6D2C35CC2227330B001939D3 /* Utilities.swift in Sources */,
+				6D2C35AD22271729001939D3 /* Ashutos_Demo.xcdatamodeld in Sources */,
+				6D2C35D922276302001939D3 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D2C35A822271729001939D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2C35A922271729001939D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D2C35B02227172A001939D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2C35B12227172A001939D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D2C35B42227172A001939D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D2C35B52227172A001939D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D2C35B72227172A001939D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DCAB80C87C3CD3FDAAC1A77 /* Pods-Ashutos Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6SSBJ9V7T;
+				INFOPLIST_FILE = "Ashutos Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashutos.ios.Ashutos-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D2C35B82227172A001939D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B41A83DAF3121F91520E48F /* Pods-Ashutos Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6SSBJ9V7T;
+				INFOPLIST_FILE = "Ashutos Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashutos.ios.Ashutos-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D2C359C22271729001939D3 /* Build configuration list for PBXProject "Ashutos Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2C35B42227172A001939D3 /* Debug */,
+				6D2C35B52227172A001939D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2C35B62227172A001939D3 /* Build configuration list for PBXNativeTarget "Ashutos Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2C35B72227172A001939D3 /* Debug */,
+				6D2C35B82227172A001939D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D2C35AB22271729001939D3 /* Ashutos_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D2C35AC22271729001939D3 /* Ashutos_Demo.xcdatamodel */,
+			);
+			currentVersion = 6D2C35AC22271729001939D3 /* Ashutos_Demo.xcdatamodel */;
+			path = Ashutos_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D2C359922271729001939D3 /* Project object */;
+}
